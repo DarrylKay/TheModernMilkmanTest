@@ -1,11 +1,11 @@
 .category {
   margin: 10px 0;
   padding: 0 5px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   letter-spacing: 1px;
   opacity: 0.6;
-  border: 2px solid transparent;
+  border-left: 3px solid #f4f4f4;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 
@@ -20,10 +20,5 @@
 @media screen and (max-width: 600px) {
   .category {
     margin: 10px 5px;
-
-    &.active {
-      border-left-color: transparent;
-      border-bottom-color: #50c3d5;
-    }
   }
 }
